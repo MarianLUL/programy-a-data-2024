@@ -32,6 +32,9 @@ padding-top: 10px;
 padding-bottom: 10px;
 text-align: center;
 }
+h2::before {
+        content: '➤ ';
+      }
 h3{
     text-align: left;
     font-weight: bold;
